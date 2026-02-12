@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "ignorePatterns": ["dist", "node_modules", ".next", "build", "*.config.js"],
+  "extends": [],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": ["warn", { "allow": ["error", "warn"] }]
+  }
+}
